@@ -11,6 +11,9 @@
  * 
  */
 
+// yo, I removed context argument because
+// Jesse say a bunch of Lambda calculus boring things
+
 export const lambdaHandler = async event => {
     try {
         return {
