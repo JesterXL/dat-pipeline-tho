@@ -15,7 +15,7 @@
 // Jesse say a bunch of Lambda calculus boring things
 // another code change
 
-export const lambdaHandler = async event => {
+export const lambdaHandler = async () => {
     try {
         console.log("Yo, hello world running!")
         return {
