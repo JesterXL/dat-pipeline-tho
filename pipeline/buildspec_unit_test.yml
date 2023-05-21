@@ -5,5 +5,5 @@ phases:
       python: 3.8
   build:
     commands:
-      # trigger the unit tests here
-      - echo 'Running unit tests'
+      - echo 'Running eslint THEN unit tests'
+      - npm run lint
