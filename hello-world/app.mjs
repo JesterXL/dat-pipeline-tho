@@ -15,8 +15,9 @@
 // Jesse say a bunch of Lambda calculus boring things
 // another code change
 
-export const lambdaHandler = async () => {
+export const lambdaHandler = async event => {
     try {
+        console.log("Yo, hello world running!")
         return {
             'statusCode': 200,
             'body': JSON.stringify({
