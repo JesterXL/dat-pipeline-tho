@@ -6,4 +6,7 @@ phases:
   build:
     commands:
       - echo 'Running eslint THEN unit tests'
+      - cd hello-world
+      - echo pwd
+      - echo ls
       - npm run lint
