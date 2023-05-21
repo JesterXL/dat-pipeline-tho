@@ -15,7 +15,7 @@
 // Jesse say a bunch of Lambda calculus boring things
 // another code change
 
-export const lambdaHandler = async (event, context) => {
+export const lambdaHandler = async () => {
     try {
         return {
             'statusCode': 200,
