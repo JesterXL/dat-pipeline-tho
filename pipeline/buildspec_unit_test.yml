@@ -9,5 +9,5 @@ phases:
       - cd hello-world
       - echo pwd
       - echo ls
-      - npm ci
+      - npm i
       - npm run lint
